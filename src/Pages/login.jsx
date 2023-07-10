@@ -28,7 +28,7 @@ function Login() {
           </div>
           <div className="nav_like">
             <p>Don't have an account?</p>
-            <a href="#" 
+            <a href="/register" 
             >Register here now</a>
           </div>
         </div>

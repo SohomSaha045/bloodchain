@@ -14,14 +14,14 @@ function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [cpassword, setcPassword] = useState("");
-  const [ap, setAP] = useState(0);
-  const [bp, setBP] = useState(0);
-  const [abp, setABP] = useState(0);
-  const [op, setOP] = useState(0);
-  const [an, setAN] = useState(0);
-  const [bn, setBN] = useState(0);
-  const [abn, setABN] = useState(0);
-  const [on, setON] = useState(0);
+  const [ap, setAP] = useState("");
+  const [bp, setBP] = useState("");
+  const [abp, setABP] = useState("");
+  const [op, setOP] = useState("");
+  const [an, setAN] = useState("");
+  const [bn, setBN] = useState("");
+  const [abn, setABN] = useState("");
+  const [on, setON] = useState("");
 
   return (
     <div className="main">
@@ -169,14 +169,14 @@ function Register() {
                   .addBank(
                     organization,
                     number,
-                    ap,
-                    bp,
-                    abp,
-                    op,
-                    an,
-                    bn,
-                    abn,
-                    on
+                    parseInt(ap),
+                    parseInt(bp),
+                    parseInt(abp),
+                    parseInt(op),
+                    parseInt(an),
+                    parseInt(bn),
+                    parseInt(abn),
+                    parseInt(on)
                   )
                   .send({
                     from: account[0],
