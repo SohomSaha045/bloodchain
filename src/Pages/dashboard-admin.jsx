@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import "../Styles/dashboard-admin.css";
 
-
-
 function DashboardAdmin() {
   const [option, setOption] = useState(0);
 

@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useContext} from "react";
 import "../Styles/login.css";
 import imgimg from "../assets/img_login.png";
+import { DemoContext } from "../contexts/democontext";
 
 function Login() {
+  const { contracts, setContracts } = useContext(DemoContext);
+  const { account, setAccount } = useContext(DemoContext);
   return (
     <div className="main">
       <div className="left_div">
@@ -21,11 +24,12 @@ function Login() {
             </div>
           </div>
           <div className="login_btn">
-            <button>Log in</button>
+            <button >Log in</button>
           </div>
           <div className="nav_like">
             <p>Don't have an account?</p>
-            <a href="/register">Register here now</a>
+            <a href="/register" 
+            >Register here now</a>
           </div>
         </div>
       </div>
