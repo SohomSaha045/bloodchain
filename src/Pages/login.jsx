@@ -24,7 +24,14 @@ function Login() {
             </div>
           </div>
           <div className="login_btn">
-            <button>Log in</button>
+            <button  onClick={
+              async ()=>{
+                
+                var res= await contracts.methods.check().call();
+                console.log(res);
+  
+              }
+            }>Log in</button>
           </div>
           <div className="nav_like">
             <p>Don't have an account?</p>

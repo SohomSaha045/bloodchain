@@ -124,7 +124,7 @@ contract BloodBank {
              return false;
          }
     }
-    function check() public returns (bool){
+    function check() public view returns (bool){
         if(msg.sender==admin){
             return true;
         }
