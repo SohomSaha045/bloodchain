@@ -24,24 +24,12 @@ function Login() {
             </div>
           </div>
           <div className="login_btn">
-            <button  onClick={
-              async ()=>{
-                
-                var res= await contracts.methods.check().call();
-                console.log(res);
-  
-              }
-            }>Log in</button>
+            <button >Log in</button>
           </div>
           <div className="nav_like">
             <p>Don't have an account?</p>
-            <a href="#" onClick={
-              async ()=>{
-
-               var res = await contracts.function.bankName().call();
-                console.log(res);
-              }
-            }>Register here now</a>
+            <a href="#" 
+            >Register here now</a>
           </div>
         </div>
       </div>
