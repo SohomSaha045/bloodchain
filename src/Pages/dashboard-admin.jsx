@@ -10,11 +10,7 @@ const CheckAvailability = () => {
           <th>Blood bank names</th>
           <th>Unique ID(UID)</th>
         </tr>
-        <tr
-          onClick={() => {
-            href = "/register";
-          }}
-        >
+        <tr>
           <td>A+</td>
           <td>0</td>
         </tr>
