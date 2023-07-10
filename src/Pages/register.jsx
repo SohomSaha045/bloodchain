@@ -83,6 +83,9 @@ function Register() {
                 value={cpassword}
               />
             </div>
+
+            <div className="info">Enter the quantities of blood available(in litres)</div>
+
             <div className="bloodgroup1">
               <input
                 type="text"
