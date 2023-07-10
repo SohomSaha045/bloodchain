@@ -1,0 +1,142 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.col1, .col2{
+    width: 50%;
+    /* height: 100vh; */
+}
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.col1 > div {
+  max-width: 500px;
+}
+
+.col1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.top_div{
+    width:50%;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp{
+    display: block;
+    
+}
+
+.bottom_div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+  }
+  
+  .top_div {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sub_heading {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .form_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inp {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .password_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  
+  .password_div input {
+    width: 45%;
+    height: 30px;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .bloodgroup1,
+  .bloodgroup2 {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .bloodgroup1 input,
+  .bloodgroup2 input {
+    width: 40px; /* Adjust the width as needed */
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  .register button {
+    margin: auto 2rem;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 0.7rem 2rem;;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-box-shadow: 6px 8px 16px -4px rgba(97,97,97,1);
+    -moz-box-shadow: 6px 8px 16px -4px rgba(97,97,97,1);
+    box-shadow: 6px 8px 16px -4px rgba(97,97,97,1); 
+  }
+  
+  .register button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
