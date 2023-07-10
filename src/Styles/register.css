@@ -29,7 +29,7 @@
 
 .top_div{
     width:50%;
-    border-bottom: 3px solid gray;
+    /* border-bottom: 3px solid gray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,14 +88,12 @@
   }
   
   .password_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 2%;
+    width: 90%;
   }
   
   .password_div input {
-    width: 45%;
+    width: 100%;
     height: 30px;
     margin: 1%;
     padding: 1%;

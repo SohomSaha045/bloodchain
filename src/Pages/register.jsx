@@ -31,7 +31,7 @@ function Register() {
                 placeholder="Confirm password"
               />
             </div>
-
+            <div className="info">Enter the quantities of blood available(in litres)</div>
             <div className="bloodgroup1">
               <input type="text" className="inp" placeholder="A+" />
               <input type="text" className="inp" placeholder="B+" />

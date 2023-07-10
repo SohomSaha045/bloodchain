@@ -1,17 +1,15 @@
-.main{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
 }
-.blood_bank_name{
+.blood_bank_name {
 display: flex;
-width: 237px;
-height: 42px;
 flex-direction: column;
-flex-shrink: 0;
-color: rgba(64, 14, 14, 0.95);
+
+color: white;
 text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 font-family: Lato;
 font-size: 36px;
@@ -20,160 +18,180 @@ font-weight: 700;
 line-height: 150%;
 align-items: center;
 }
-.left_nav{
-    width: 20%;
-    background:  linear-gradient(157deg, #B32346 22.17%, #6A0B37 66.92%);
-    color: white;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
+.left_nav {
+  width: 20%;
+  background:  linear-gradient(157deg, #B32346 22.17%, #6A0B37 66.92%);
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
 }
 
-.nav_option li{
-    cursor: pointer;
-    list-style: none;
-    justify-content: space-between;
-    margin-bottom:50px ;
-    height:5rem;
-    display: flex;
-    align-items: center;
-    
-    display: flex;
-    /* width: 300px; */
-    padding: 3px 30px 0px 31px;
-    justify-content: center;
-    box-shadow: inset 0 0 10px #48414114;
-    /* border-radius: 1s5px; */
-     /* background: #d9390d; */
+.left_nav p{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5%;
+}
 
-    color: #FFF;
-    text-shadow: 0px 4px 4px 0px rgba(235, 56, 24, 0.379);
+.nav_option  li{
+  cursor: pointer;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom:50px ;
+  height:5rem;
+  display: flex;
+  align-items: center;
+  
+  display: flex;
+  /* width: 300px; */
+  padding: 3px 30px 0px 31px;
+  justify-content: center;
+  box-shadow: inset 0 0 10px #48414114;
+  /* border-radius: 1s5px; */
+   /* background: #d9390d; */
+
+  color: #FFF;
+  text-shadow: 0px 4px 4px 0px rgba(235, 56, 24, 0.379);
 font-family: Lato;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 150%;
-            
-    
-}
-
-.nav_option :hover{
-    background-color:  rgba(245, 151, 151 , 0.2);
+          
   
+}
+
+.nav_option  :hover{
+  background-color:  rgba(245, 151, 151 , 0.2);
 
 }
 
 
-.nav_option_selected{
-    border-left: 3px solid black;
+.nav_option_selected {
+background-color:  rgba(245, 151, 151 , 0.2);
+  border-left: 3px solid black;
 }
 
-.right_display
+.right_display 
 {
-    width: 80%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table th, .table td {
-    padding: 8px;
-    border: 1px solid #ddd;
-  }
-  
-  .table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  .table tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .table tr:hover {
-    background-color: #ddd;
-  }
+.table  {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  
+.table  th, .table  td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
 
+.table  th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
 
+.table  tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
 
-
-
+.table  tr:hover {
+  background-color: #ddd;
+}
 
 .col2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .top_div {
-  margin-bottom: 20px;
-  text-align: center;
+margin-bottom: 20px;
+text-align: center;
 }
 
 .heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
 }
 
 .sub_heading {
-  font-size: 16px;
-  color: #888;
-  margin-bottom: 20px;
+font-size: 16px;
+color: #888;
+margin-bottom: 20px;
 }
 
 .form_div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
 }
 
 .inp {
-  width: 300px;
-  height: 30px;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+width: 300px;
+height: 30px;
+margin-bottom: 10px;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
 }
 
 .password_div {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .bloodgroup {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 10px;
+margin-top: 10px;
 }
 
 .register button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+padding: 10px 20px;
+font-size: 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 .register button:hover {
-  background-color: #0056b3;
+background-color: #0056b3;
 }
 
+.req_btn{
+  visibility: hidden;
+}
 
- 
+.form_dash{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form_dash div{
+  margin: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form_dash div input{
+  width: 100%;
+  padding: 2% 1%;
+}

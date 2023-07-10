@@ -1,17 +1,15 @@
-.main{
+.main_admin{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
 }
-.blood_bank_name{
+.blood_bank_name_admin{
 display: flex;
-width: 237px;
-height: 42px;
 flex-direction: column;
-flex-shrink: 0;
-color: rgba(64, 14, 14, 0.95);
+
+color: white;
 text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 font-family: Lato;
 font-size: 36px;
@@ -20,7 +18,7 @@ font-weight: 700;
 line-height: 150%;
 align-items: center;
 }
-.left_nav{
+.left_nav_admin{
     width: 20%;
     background:  linear-gradient(157deg, #B32346 22.17%, #6A0B37 66.92%);
     color: white;
@@ -31,7 +29,7 @@ align-items: center;
     
 }
 
-.nav_option li{
+.nav_option_admin li{
     cursor: pointer;
     list-style: none;
     justify-content: space-between;
@@ -59,18 +57,18 @@ line-height: 150%;
     
 }
 
-.nav_option :hover{
+.nav_option_admin :hover{
     background-color:  rgba(245, 151, 151 , 0.2);
   
-
 }
 
 
-.nav_option_selected{
+.nav_option_selected_admin{
+  background-color:  rgba(245, 151, 151 , 0.2);
     border-left: 3px solid black;
 }
 
-.right_display
+.right_display_admin
 {
     width: 80%;
     padding: 20px;
@@ -80,29 +78,32 @@ line-height: 150%;
     flex-direction: row;
 }
 
-.table {
+.table_admin {
     width: 100%;
     border-collapse: collapse;
   }
   
-  .table th, .table td {
+  .table_admin th, .table_admin td {
+    text-align: center;
     padding: 8px;
     border: 1px solid #ddd;
   }
   
-  .table th {
+  .table_admin th {
     background-color: #f2f2f2;
     font-weight: bold;
   }
   
-  .table tr:nth-child(even) {
+  .table_admin tr:nth-child(even) {
     background-color: #f9f9f9;
   }
   
-  .table tr:hover {
+  .table_admin tr:hover {
     background-color: #ddd;
   }
-
+.req_btn_admin{
+  visibility: hidden;
+}
   
 
 
