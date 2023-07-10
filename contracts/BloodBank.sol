@@ -9,7 +9,7 @@ pragma solidity >=0.8.2 <0.9.0;
  */
 contract BloodBank {
 
-    address private admin;
+    address public admin;
     uint private uniqueID ;
     uint private tID ;
      constructor () public {
@@ -123,6 +123,15 @@ contract BloodBank {
          else{
              return false;
          }
+    }
+    function check() public returns (bool){
+        if(msg.sender==admin){
+            return true;
+        }
+        else{
+            return false;
+        }
+
     }
     
 
